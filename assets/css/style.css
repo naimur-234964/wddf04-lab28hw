@@ -1,0 +1,69 @@
+/* common codes start */
+:root{
+    --primary-color: #87D37C;
+    --secondary-color: #FDFAFA;
+    --light-color: #FEFBFC;
+    --dark-color: #040404;
+}
+.container{
+    min-width: 360px;
+}
+/* common codes end */
+
+/* header section start */
+#header{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(../img/banner.jpg) no-repeat;
+    height: 675px;
+    background-size: cover;
+}
+#header .banner-text{
+    color: var(--light-color);
+    text-transform: uppercase;
+}
+
+#header .banner-text h3{
+    font-size: 38px;
+    font-weight:500;
+}
+
+#header .banner-text h1{
+    font-size: 90px;
+    font-weight:600;
+    border: 1px solid var(--light-color);
+}
+#header .banner-text h1 span{
+    color: var(--primary-color);
+}
+
+#header .banner-text p{
+    font-size: 34px;
+    font-weight:300;
+}
+
+/* navbar section start */
+#navbar .nav-link,
+#navbar .dropdown-item {
+    padding: var(--bs-nav-link-padding-y) 20px;
+    font-size: 18px;
+    font-weight:600;
+    color: var(--light-color);
+    text-transform: uppercase;
+    
+    &.active{
+        color: var(--primary-color);
+    }
+    
+    &:hover{
+        color: var(--primary-color);
+    }
+}
+
+#navbar .dropdown-menu{
+    --bs-dropdown-bg:: transparent;
+}
+/* navbar section end */
+/* header section end */
+
+main{
+    height: 1300px;
+}
