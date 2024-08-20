@@ -5,6 +5,9 @@
     --light-color: #FEFBFC;
     --dark-color: #040404;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     min-width: 360px;
 }
@@ -111,6 +114,6 @@
 }
 /* about_us section end */
 
-/* main{
+ main{
     height: 1300px;
-} */
+} 
